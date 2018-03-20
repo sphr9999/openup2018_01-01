@@ -1,3 +1,5 @@
+* [[https://rawgit.com/Open-Up/openup2018_01-01/master/README.html][Presentation online]]
+
 #+REVEAL_ROOT: ./
 #+OPTIONS: num:nil toc:nil
 #+REVEAL_PLUGINS: (highlight markdown)
