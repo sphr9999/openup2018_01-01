@@ -1,0 +1,195 @@
+#+REVEAL_ROOT: ./
+#+OPTIONS: num:nil toc:nil
+#+REVEAL_PLUGINS: (highlight markdown)
+#+REVEAL_THEME: night
+#+REVEAL_EXTRA_CSS: ./lib/css/presentation.css
+
+#+Title: Git - Version control system
+#+Author: Linagora
+#+Email: vietnam@linagora.com
+
+
+* Who am i?
+
+* About Linagora
+
+* About Opensource
+
+* What is Git?
+
+  #+BEGIN_EXPORT html
+  <img src="./lib/img/git-logo.png" style="border: 0px; background: none"/>
+  #+END_EXPORT
+  @author: Linus Torvalds
+
+** What is Version Control?
+*** Your daily tasks
+    #+ATTR_REVEAL: :frag fade-in
+    - Create things
+    - Save things
+    - Edit things
+    - Save the thing again?
+
+*** So, we need a tool that tell us to know
+    #+ATTR_REVEAL: :frag fade-in
+    - What changed?
+    - When changed?
+    - Where changed?
+    - Why changed?
+    - Who changed?
+
+** Git features
+   #+ATTR_REVEAL: :frag fade-in
+  - Free and Opensource
+  - Small and Fast
+  - Distributed
+  - Staging area
+  - Branching and Merging
+  - Data Assurance
+
+** Have a look
+   #+BEGIN_EXPORT html
+   <img src="./lib/img/git-remote.png" style="border: 0px; background: none"/>
+   #+END_EXPORT
+* Ok, Practicing together
+
+** git init
+   #+BEGIN_SRC
+man git-init
+
+NAME
+       git-init - Create an empty Git repository or reinitialize an existing one
+   #+END_SRC
+** git add
+   #+BEGIN_SRC
+man git-add
+
+NAME
+       git-add - Add file contents to the index
+
+   #+END_SRC
+
+** git status
+   #+BEGIN_SRC
+man git-status
+
+NAME
+       git-status - Show the working tree status
+
+   #+END_SRC
+
+** git commit
+   #+BEGIN_SRC
+man git-commit
+
+NAME
+       git-commit - Record changes to the repository
+
+   #+END_SRC
+
+*** A good commit message?
+    #+BEGIN_EXPORT html
+    <img src="https://imgs.xkcd.com/comics/git_commit.png" style="border:0, background: none" />
+    #+END_EXPORT
+** git log
+
+   #+BEGIN_SRC
+man git-log
+
+NAME
+       git-log - Show commit logs
+
+   #+END_SRC
+
+** git branch
+   #+BEGIN_SRC
+man git-branch
+
+NAME
+       git-branch - List, create, or delete branches
+   #+END_SRC
+
+** git merge
+   #+BEGIN_SRC
+man git-merge
+
+NAME
+       git-merge - Join two or more development histories together
+   #+END_SRC
+   #+BEGIN_EXPORT html
+   <iframe src="https://giphy.com/embed/OedIOW7cOxIB2" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/battles-OedIOW7cOxIB2">via GIPHY</a></p>
+   #+END_EXPORT
+** git rebase
+
+   #+BEGIN_SRC
+man git-rebase
+
+NAME
+       git-rebase - Reapply commits on top of another base tip
+   #+END_SRC
+
+** git push
+   #+BEGIN_SRC
+man git-push
+
+NAME
+       git-push - Update remote refs along with associated objects
+   #+END_SRC
+
+** git fetch
+   #+BEGIN_SRC
+man git-fetch
+NAME
+       git-fetch - Download objects and refs from another repository
+
+   #+END_SRC
+
+** git pull
+
+   pull = fetch + merge
+
+   #+BEGIN_SRC
+man git-pull
+
+NAME
+       git-pull - Fetch from and integrate with another repository or a local branch
+
+   #+END_SRC
+
+** git cherry
+
+   #+BEGIN_SRC
+man git-cherry
+
+NAME
+       git-cherry - Find commits yet to be applied to upstream
+
+   #+END_SRC
+
+** git cherry-pick
+   #+BEGIN_SRC
+man git-cherry-pick
+
+NAME
+       git-cherry-pick - Apply the changes introduced by some existing commits
+
+   #+END_SRC
+
+
+** git format-patch
+   #+BEGIN_SRC
+man git-format-patch
+
+NAME
+       git-format-patch - Prepare patches for e-mail submission
+
+   #+END_SRC
+
+** git apply
+   #+BEGIN_SRC
+man git-apply
+
+NAME
+       git-apply - Apply a patch to files and/or to the index
+
+   #+END_SRC

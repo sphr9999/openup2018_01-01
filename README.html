@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Git - Version control system</title>
+<meta name="author" content="(Linagora)"/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="./css/reveal.css"/>
+
+<link rel="stylesheet" href="./css/theme/night.css" id="theme"/>
+
+<link rel="stylesheet" href="./lib/css/presentation.css"/>
+<link rel="stylesheet" href="./lib/css/zenburn.css"/>
+<!-- If the query includes 'print-pdf', include the PDF print sheet -->
+<script>
+    if( window.location.search.match( /print-pdf/gi ) ) {
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = './css/print/pdf.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+    }
+</script>
+</head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Git - Version control system</h1><h2 class="author">Linagora</h2><p class="date">Created: 2018-03-20 Tue 16:22</p>
+</section>
+
+
+<section>
+<section id="slide-org98f0aac">
+<h2 id="org98f0aac">Who am i?</h2>
+
+</section>
+</section>
+<section>
+<section id="slide-orgcd58752">
+<h2 id="orgcd58752">About Linagora</h2>
+
+</section>
+</section>
+<section>
+<section id="slide-org90803b8">
+<h2 id="org90803b8">About Opensource</h2>
+
+</section>
+</section>
+<section>
+<section id="slide-org9b3728b">
+<h2 id="org9b3728b">What is Git?</h2>
+<img src="./lib/img/git-logo.png" style="border: 0px; background: none"/>
+<p>
+@author: Linus Torvalds
+</p>
+
+</section>
+<section id="slide-org5f5c16c">
+<h3 id="org5f5c16c">What is Version Control?</h3>
+<div class="outline-text-3" id="text-org5f5c16c">
+</div>
+</section>
+<section id="slide-orgb6e4b07">
+  <h4 id="orgb6e4b07">Your daily tasks</h4>
+  <ul>
+  <li class="fragment fade-in visible">Create things</li>
+  <li class="fragment fade-in visible">Save things</li>
+  <li class="fragment fade-in visible">Edit things</li>
+  <li class="fragment fade-in visible" style="color: red">Save the thing again?</li>
+</ul>
+
+</section>
+<section id="slide-org6940bec">
+<h4 id="org6940bec">So, we need a tool that tell us to know</h4>
+<ul>
+<li class="fragment fade-in visible">What changed?</li>
+<li class="fragment fade-in visible">When changed?</li>
+<li class="fragment fade-in visible">Where changed?</li>
+<li class="fragment fade-in visible">Why changed?</li>
+<li class="fragment fade-in visible">Who changed?</li>
+
+</ul>
+
+</section>
+<section id="slide-org4d64fd3">
+<h3 id="org4d64fd3">Git features</h3>
+<ul>
+<li class="fragment fade-in visible">Free and Opensource</li>
+<li class="fragment fade-in visible">Small and Fast</li>
+<li class="fragment fade-in visible">Distributed</li>
+<li class="fragment fade-in visible">Staging area</li>
+<li class="fragment fade-in visible">Branching and Merging</li>
+<li class="fragment fade-in visible">Data Assurance</li>
+
+</ul>
+
+</section>
+<section id="slide-org1791484">
+<h3 id="org1791484">Have a look</h3>
+<img src="./lib/img/git-remote.png" style="border: 0px; background: none"/>
+</section>
+</section>
+<section>
+<section id="slide-orge0ed35e">
+<h2 id="orge0ed35e">Ok, Practicing together</h2>
+<div class="outline-text-2" id="text-orge0ed35e">
+</div>
+</section>
+<section id="slide-orgf1710d9">
+<h3 id="orgf1710d9">git init</h3>
+<pre  class="example">
+man git-init
+
+NAME
+       git-init - Create an empty Git repository or reinitialize an existing one
+</pre>
+</section>
+<section id="slide-org9fa1a29">
+<h3 id="org9fa1a29">git add</h3>
+<pre  class="example">
+man git-add
+
+NAME
+       git-add - Add file contents to the index
+
+</pre>
+
+</section>
+<section id="slide-org9abef7f">
+<h3 id="org9abef7f">git status</h3>
+<pre  class="example">
+man git-status
+
+NAME
+       git-status - Show the working tree status
+
+</pre>
+
+</section>
+<section id="slide-org681d128">
+<h3 id="org681d128">git commit</h3>
+<pre  class="example">
+man git-commit
+
+NAME
+       git-commit - Record changes to the repository
+
+</pre>
+
+</section>
+<section id="slide-orga2b807c">
+<h4 id="orga2b807c">A good commit message?</h4>
+<img src="https://imgs.xkcd.com/comics/git_commit.png" style="border:0, background: none" />
+</section>
+<section id="slide-org0319f4b">
+<h3 id="org0319f4b">git log</h3>
+<pre  class="example">
+man git-log
+
+NAME
+       git-log - Show commit logs
+
+</pre>
+
+</section>
+<section id="slide-org381c569">
+<h3 id="org381c569">git branch</h3>
+<pre  class="example">
+man git-branch
+
+NAME
+       git-branch - List, create, or delete branches
+</pre>
+
+</section>
+<section id="slide-orge610ad1">
+<h3 id="orge610ad1">git merge</h3>
+<pre  class="example">
+man git-merge
+
+NAME
+       git-merge - Join two or more development histories together
+</pre>
+<iframe src="https://giphy.com/embed/OedIOW7cOxIB2" width="480" height="269" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/battles-OedIOW7cOxIB2">via GIPHY</a></p>
+</section>
+<section id="slide-org3ebf192">
+<h3 id="org3ebf192">git rebase</h3>
+<pre  class="example">
+man git-rebase
+
+NAME
+       git-rebase - Reapply commits on top of another base tip
+</pre>
+
+</section>
+<section id="slide-org5e1b28a">
+<h3 id="org5e1b28a">git push</h3>
+<pre  class="example">
+man git-push
+
+NAME
+       git-push - Update remote refs along with associated objects
+</pre>
+
+</section>
+<section id="slide-orgcb70259">
+<h3 id="orgcb70259">git fetch</h3>
+<pre  class="example">
+man git-fetch
+NAME
+       git-fetch - Download objects and refs from another repository
+
+</pre>
+
+</section>
+<section id="slide-org9f61e02">
+<h3 id="org9f61e02">git pull</h3>
+<p>
+pull = fetch + merge
+</p>
+
+<pre  class="example">
+man git-pull
+
+NAME
+       git-pull - Fetch from and integrate with another repository or a local branch
+
+</pre>
+
+</section>
+<section id="slide-orgb5c9d28">
+<h3 id="orgb5c9d28">git cherry</h3>
+<pre  class="example">
+man git-cherry
+
+NAME
+       git-cherry - Find commits yet to be applied to upstream
+
+</pre>
+
+</section>
+<section id="slide-orgd616dd6">
+<h3 id="orgd616dd6">git cherry-pick</h3>
+<pre  class="example">
+man git-cherry-pick
+
+NAME
+       git-cherry-pick - Apply the changes introduced by some existing commits
+
+</pre>
+
+
+</section>
+<section id="slide-org4007d3b">
+<h3 id="org4007d3b">git format-patch</h3>
+<pre  class="example">
+man git-format-patch
+
+NAME
+       git-format-patch - Prepare patches for e-mail submission
+
+</pre>
+
+</section>
+<section id="slide-org7670546">
+<h3 id="org7670546">git apply</h3>
+<pre  class="example">
+man git-apply
+
+NAME
+       git-apply - Apply a patch to files and/or to the index
+
+</pre>
+</section>
+</section>
+</div>
+</div>
+<script src="./lib/js/head.min.js"></script>
+<script src="./js/reveal.js"></script>
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+
+controls: true,
+progress: true,
+history: false,
+center: true,
+slideNumber: 'c',
+rollingLinks: false,
+keyboard: true,
+overview: true,
+
+theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+transitionSpeed: 'default',
+multiplex: {
+    secret: '', // null if client
+    id: '', // id, obtained from socket.io server
+    url: '' // Location of socket.io server
+},
+
+// Optional libraries used to extend on reveal.js
+dependencies: [
+ { src: './plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+ { src: './plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+ { src: './plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } }]
+});
+</script>
+</body>
+</html>
