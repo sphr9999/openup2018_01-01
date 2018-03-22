@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Open Up</title>
+
+		<meta name="description" content="Open Up : Lesson 3 LDAP servers">
+		<meta name="author" content="Tellier Benoit">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+	
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+
+<section>
+<h1>Open-up</h1>
+
+<h2>The way to the cloud!</h2>
+
+<img data-src="large.png">
+
+<p>Speaker : <a>Benoit Tellier</a></p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<section>
+<section>
+<h1>The upcoming semester</h1>
+</section>
+
+<section>
+<b>By the end of the lessons you should be able to :</b>
+<ul>
+<li class="fragment">Know some NoSQL databases</li>
+<li class="fragment">Have an overview of Hadoop</li>
+<li class="fragment">Use cloud APIs</li>
+<li class="fragment">Knowledge about distributed systems</li>
+</ul>
+</section>
+
+<section>
+<h2>Why cloud matters ?</h2>
+<ul>
+<li class="fragment">Infrastructure as a service !</li>
+<li class="fragment">Ease of development</li>
+<li class="fragment">Big data</li>
+</ul>
+</section>
+
+<section>
+<h2>Time management</h2>
+<ul>
+<li>Lecture: 9 hours</li>
+<li>Mini-project: 40 hours</li>
+<li>Practice: 18 hours</li>
+<li>Exams : 3 hours</li>
+</ul>
+</section>
+
+<section>
+<ul>
+  <li class="fragment">Introduction</li>
+  <li class="fragment">KVM</li>
+  <li class="fragment">CEPH filesystem</li>
+  <li class="fragment">OpenStack</li>
+  <li class="fragment">Config management with Ansible</li>
+  <li class="fragment">RobotConf</li>
+  <li class="fragment">MongoDB</li>
+  <li class="fragment">Cassandra</li>
+  <li class="fragment">Hadoop</li>
+  <li class="fragment">Final exam</li>
+</ul>
+</section>
+
+<section>
+<h2>Evaluating your work</h2>
+<ul>
+<li>Class attendance  25%</li>
+<li>Mid-term exam 25%</li>
+<li>Final exam 50%</li>
+</ul>
+</section>
+
+</section>
+
+
+
+
+
+
+
+
+
+<section>
+	<h1>Questions ?</h1>
+</section>
+
+
+
+
+
+
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				slideNumber: true,
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+                                
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
