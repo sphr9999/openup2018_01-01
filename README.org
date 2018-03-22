@@ -195,3 +195,20 @@ NAME
        git-apply - Apply a patch to files and/or to the index
 
    #+END_SRC
+* Github? How to contribute?
+** What are Github / Gitlab / Bitbucket / ... ?
+
+** Exercise (How to contribute?)
+
+1. Create Github account (If you don't have yet)
+2. Fork this repository (upstream)
+3. Clone your repository into your PC
+4. Add your information to CONTRIBUTORS.md look like
+
+   #+BEGIN_SRC 
+   Your name <email@example.com>                   github.com/your-account
+   #+END_SRC
+
+5. Create a good commit
+6. Push to your Github repository
+7. Create a pull request to upstream with a good reason
