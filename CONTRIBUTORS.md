@@ -1,4 +1,6 @@
 ```
-Linagora Vietnam <vietnam@linagora.com>                   github.com/linagora
+Add your name at the bottom of the list:
+
+ - Benoit Tellier
 
 ```
